@@ -4,15 +4,16 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.2.1.min.js"></script>
 </head>
 <body>
 git learning!!!
-<div onclick="click()">go</div>
+<div id="title">Git Learning</div>
 
 <script>
-    function click() {
-        alert("gogo");
-    }
+    $("#title").click(function () {
+        alert("click title");
+    });
 </script>
 
 </body>
